@@ -16,7 +16,10 @@ const columns = [
   },
   {
     Header: "Last Name",
-    accessor: "lastName"
+    accessor: "lastName",
+    maxWidth: 400,
+    minWidth: 80,
+    width: 300
   },
   {
     Header: "Age",
